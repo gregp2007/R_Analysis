@@ -7,7 +7,7 @@ This Code Book will describe the data and the variables.
 
 ####1.ActivtyCode 2.ActivityDesc
 
-The activity Code associated to the ActivityDesc, The activities were performed by the subjects and measurments were
+The activity Code associated to the ActivityDesc, The activities were performed by the subjects and measurements were
 obtained and recorded with the associated activity.
 
 
@@ -21,10 +21,10 @@ obtained and recorded with the associated activity.
 
 ####3.Subject
 
-There were 30 sujects that partcipated in the experiment.
+There were 30 subjects that participated in the experiment.
 21 were in the Training Group and 9 were in the Test Group
 
-Sujects were lableled 1-30.
+Subjects were labeled 1-30.
 
 The 21 subject numbers in the train group are (1,3,5,6,7,8,11,14,15,16,17,19,21,22,23,25,26,27,28,28,30)
 The 9 subject numbers in the test group are (2,4,9,10,12,13,18,20,24)
@@ -40,7 +40,7 @@ Testing
 
 ###Measurement Variables
 
-The following text is summarized from the features_intro.txt file from the original dataset. This is provided to put the variables in a more complete context since this was a scientific experiment. I included the original textfrom this summary since I do not think I would do it justice in paraphrasing. I have translated the raw variable names to the descriptive variable names. I have only included the variables that were associated to the mean and std deviation values we wished to use for our smaller data set.
+The following text is summarized from the features_intro.txt file from the original dataset. This is provided to put the variables in a more complete context since this was a scientific experiment. I included the original text from this summary since I do not think I would do it justice in paraphrasing. I have translated the raw variable names to the descriptive variable names. I have only included the variables that were associated to the mean and std deviation values we wished to use for our smaller data set.
 
 t=Time and f=Frequency(Freq)
 
@@ -73,11 +73,13 @@ Note: I have included the translation of the raw variable names to the more desc
 ######fBodyGyroMag=           FreqGyroMag            
 ######fBodyGyroJerkMag        FreqGyroJerkMag
 
-The set of variables that were estimated from these signals are: (Only ones that were used in our set)
+The set of variables that were estimated from these signals are: Note: (Only included the ones that were used in our set)
 
-mean(): Mean value
-std(): Standard deviation
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+####mean(): Mean value
+
+####std(): Standard deviation
+
+###meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
@@ -88,17 +90,18 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 ######tBodyGyroMean = TimeBodyGyroMean
 ######tBodyGyroJerkMean= TimeBodyGyroJerkMean
 
-The complete list of variables of each feature vector is available in 'features.txt'
+The complete list of variables of each feature vector is available in 'features.txt' in the original dataset
+
 
 ####5. AvgTimeBodyAccelMeanX
-The mean of the TimeBodyAccelMeanX for each  The TimeBodyAccelMeanX. The TimeBodyAccelMean is the mean of the raw data for the TimeBodyAccel on the X axial vector,
+The mean of the TimeBodyAccelMeanX. The TimeBodyAccelMean is the mean of the raw data for the TimeBodyAccel on the X axial vector,
 
 
 ####6, AvgTimeBodyAccelMeanY
-The mean of the TimeBodyAccelMeanY for each  The TimeBodyAccelMeanY. The TimeBodyAccelMean is the mean of the raw data for the TimeBodyAccel on the Y axial vector,
+The mean of the TimeBodyAccelMeanY. The TimeBodyAccelMean is the mean of the raw data for the TimeBodyAccel on the Y axial vector,
 
 ####7.  AvgTimeBodyAccelMeanZ
-The mean of the TimeBodyAccelMeanZ for each  The TimeBodyAccelMeanZ. The TimeBodyAccelMean is the mean of the raw data for the TimeBodyAccel on the Z axial vector,
+The mean of the TimeBodyAccelMeanZ. The TimeBodyAccelMean is the mean of the raw data for the TimeBodyAccel on the Z axial vector,
 
 ####8.  AvgTimeGravityAccelMeanX
 The mean of the TimeGravityAccelMeanX. The TimeGravityAccelMeanX is the mean of the raw data for the TimeGravityAccel
